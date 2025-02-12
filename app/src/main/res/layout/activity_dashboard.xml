@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dash">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/indvotor"
+        android:layout_margin="16dp"
+        android:layout_gravity="top|end" />
+
+    <LinearLayout
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCaptureImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Image"
+            android:backgroundTint="@android:color/holo_green_dark" />
+
+        <ImageView
+            android:id="@+id/ivCapturedImage"
+            android:layout_width="270dp"
+            android:layout_height="159dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/darker_gray"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnVoteNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vote Now"
+            android:backgroundTint="@android:color/holo_green_light" />
+    </LinearLayout>
+
+</FrameLayout>
