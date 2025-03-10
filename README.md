@@ -1,7 +1,8 @@
 SecureVote
 An Advanced AI-Enabled Online Voting System
 <p align="center"> <img src="https://github.com/Abhishekjha2011/SecureVote/blob/voter/Home%20Page.jpeg" width="22%" alt="SecureVote Home Page"> <img src="https://github.com/Abhishekjha2011/SecureVote/blob/voter/Admin%20Mode.jpeg" width="22%" alt="SecureVote Admin Mode"> <img src="https://github.com/Abhishekjha2011/SecureVote/blob/voter/Login%20Mode.jpeg" width="22%" alt="SecureVote Login Mode"> <img src="https://github.com/Abhishekjha2011/SecureVote/blob/voter/Indian%20Political%20Parties.jpeg" width="22%" alt="SecureVote Political Parties"> </p>
-🔹 About SecureVote
+🔹 About SecureVote:
+
 SecureVote is a highly secure and AI-powered online voting system designed to ensure fair, transparent, and efficient elections. The platform leverages biometric authentication, AI-based face recognition, and Firebase security to provide a tamper-proof voting experience.
 
 🚀 Key Features:
